@@ -1,0 +1,27 @@
+.btn-pink {
+    background-color: #FFA5B0 !important;
+    border-color: #fafafa !important;
+    color: #000000 !important;
+    box-shadow: 0 0 10px 0 #FFA5B0;
+}
+
+.btn-pink:hover {
+    background-color: #fabcc4;
+    border-color: #fabcc4;
+    box-shadow: 0 0 10px 0 rgba(249, 207, 207, 0.5);
+}
+.btn-ungu {
+    background-color: #6A197D !important;
+    border-color: #fafafa !important;
+    color: #ffffff !important;
+}
+
+.btn-ungu:hover {
+    background-color: #801e96;
+    border-color: #fabcc4;
+    box-shadow: 0 0 10px 0 rgba(249, 207, 207, 0.5);
+}
+
+.text-ungu {
+    color: #6A197D !important;
+}
