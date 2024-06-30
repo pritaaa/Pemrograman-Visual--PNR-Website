@@ -9,9 +9,9 @@ const Header = () => {
         className="navbar navbar-main navbar-expand-lg navbar-theme-primary headroom navbar-light navbar-transparent navbar-theme-primary"
       >
         <div className="container position-relative">
-          <a
+          <Link
             className="navbar-brand shadow-soft py-2 px-3 rounded border border-light mr-lg-4 btn-ungu"
-            href="./home.html"
+            to={"/"}
           >
             <img
               className="navbar-brand-dark"
@@ -23,7 +23,7 @@ const Header = () => {
               src="src/assets/img/brand/pnr4.png"
               alt="Logo dark"
             />
-          </a>
+          </Link>
 
           <div
             className="navbar-collapse collapse position-absolute right-0"
